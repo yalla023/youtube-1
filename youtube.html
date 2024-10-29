@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <div class="navbar-logo">YouTube</div>
+    <div class="navbar-search">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+    <div class="navbar-icons">
+      <span>🔔</span>
+      <span>📷</span>
+      <span>👤</span>
+    </div>
+  </header>
+
+  <!-- Sidebar and Main Content -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li>Home</li>
+        <li>Trending</li>
+        <li>Subscriptions</li>
+        <li>Library</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content (Video Grid) -->
+    <main class="main-content">
+      <div class="video-grid">
+        <!-- Video Item 1 -->
+        <div class="video-card">
+          <!-- <img src="Butterfly.png" alt="Video Thumbnail"> -->
+           <!-- <video src="Butterfly.mp4"></video> -->
+           <iframe width="320" height="180" 
+           src="Butterfly 1.mp4" 
+           title="YouTube video player" frameborder="0" 
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+           allowfullscreen>
+       </iframe>
+          <div class="video-info">
+            <h4>Butterfly</h4>
+            <p>Butterfly Channel</p>
+            <p>1M views •</p>
+          </div>
+        </div>
+        <!-- Video Item 2 -->
+        <div class="video-card">
+          <!-- <img src="https://via.placeholder.com/300x170" alt="Video Thumbnail"> -->
+          <div class="video-info">
+            <iframe width="320" height="180" 
+            src="Free girl1.mp4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+            <h4>Free Girl</h4>
+            <p>Free Girl channel</p>
+            <p>500K views • 6 months ago</p>
+          </div>
+        </div>
+        <!-- More video items can be added here -->
+      </div>
+    </main>
+  </div>
+</body>
+</html>
